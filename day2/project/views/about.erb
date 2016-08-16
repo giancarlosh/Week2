@@ -1,0 +1,10 @@
+
+<h1>about</h1>
+<%= @quetal %>
+<ul>
+	<% if @mostrar %>
+		<% @usuarios.each do |user| %>
+			<li> <%= user  %> </li>
+		<% end %>
+	<% end %>
+</ul>
